@@ -2,9 +2,9 @@ namespace FirstBankOfSuncoast
 {
   public class Account
   {
-    public int Checking { get; set; }
+    public string AccountType { get; set; }
 
-    public int Saving { get; set; }
+    public double Amount { get; set; }
 
   }
 }
